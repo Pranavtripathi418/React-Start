@@ -1,9 +1,17 @@
+import "./ExpenseItem.css";
+
 function ExpenseItem(){
-return (<div>
-    <p>Food - $5</p>
-    <p>Petrol - $20</p>
-    <p>Movie - $10</p>
-</div>)
+return (
+<div className="expense-item "> 
+    <div>15 August 2024</div>
+    <div className="expense-item__location">Delhi</div>
+    <div className="expense-item__description">
+        <h2>Book</h2>
+        <div className="expense-item__price">$20</div>
+    </div>
+</div>
+);
+
 }
 
 export default ExpenseItem;
