@@ -1,5 +1,6 @@
+import React from "react";
+import Expenses from "./components/Expenses/Expenses";
 
-import Expenses from "./components/Expenses";
 function App() {
   const expenses=[
     {id:1, date:new Date(2023,7,15), location: 'Mumbai', title:'Book', price:50},
@@ -11,9 +12,11 @@ function App() {
   return (
     <div>
     <h1>Let's Get Started</h1>
+    
     <Expenses items={expenses}/>
     </div>
   );
-}
+} 
 
 export default App;
+ 
