@@ -17,7 +17,7 @@ return (
         <h2>{title}</h2>
         <div className="expense-item__price">${props.price}</div>
     </div>
-    <button onClick={clickEventHandler}>CHANGE TITLE</button>
+    <button onClick={clickEventHandler}>cHANGE TiTLE</button>
 </Card>
 );
 
